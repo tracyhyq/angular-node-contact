@@ -1,0 +1,12 @@
+{
+  "name": "angular-node-cantact",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "jade": "~1.3.0"
+  }
+}
