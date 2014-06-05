@@ -6,8 +6,11 @@ router.get('/', function(req, res) {
 	res.render('index');
 });
 
-router.get('/phonenum-list', function(req, res) {
-	res.render('data/phonenum-list.json');
+router.get('/phone-list', function(req, res) {
+	res.render('templates/phone-list');
 });
 
+router.get('/phone-detail', function(req, res) {
+	res.render('templates/phone-detail');
+});
 module.exports = router;
